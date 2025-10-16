@@ -36,9 +36,10 @@ export const projects = [
     description: "Vehicle management platform where users can register their cars, track service history, and receive timely maintenance reminders via email and SMS notifications.",
     tags: ["Vehicle Management", "Next.js", "Tigo Pesa"],
     status: "Live",
-    link: "https://msambwe.vercel.app/",
+    link: "#",
     country: "🇹🇿",
-    emoji: "🚗"
+    emoji: "🚗",
+    restricted: true
   },
   {
     id: 2,
