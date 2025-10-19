@@ -27,9 +27,18 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Ibrah_Logics" />
+
+        {/* Google AdSense verification */}
+        <meta name="google-site-verification" content="4576403804116277" />
+
+        {/* Google AdSense script */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4576403804116277"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body className={poppins.className}>{children}</body>
     </html>
   )
 }
-
